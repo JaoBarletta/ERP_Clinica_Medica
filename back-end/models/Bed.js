@@ -6,3 +6,5 @@ class Bed {
         this.status = status;
     }
 }
+
+module.exports = Bed;

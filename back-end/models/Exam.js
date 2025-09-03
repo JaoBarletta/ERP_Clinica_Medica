@@ -8,3 +8,5 @@ class Exam{
         this.result_text = result_text;
     }
 }
+
+module.exports = Exam;
