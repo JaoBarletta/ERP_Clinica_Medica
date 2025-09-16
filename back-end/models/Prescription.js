@@ -23,8 +23,9 @@ class Prescription {
         if(medication) this.medication = medication;
         if(dosage) this.dosage = dosage;
         if(frequency) this.frequency = frequency;
-        if(route)  this.route = route;
+        if(route) this.route = route;
         if(duration) this.duration = duration;
+        if(notes) this.notes = notes;
     }
         isRecent() {
         const now = new Date();
